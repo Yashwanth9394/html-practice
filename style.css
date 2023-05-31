@@ -1,0 +1,28 @@
+.flexbox-container{
+    display: flex;
+    justify-content:center ;
+    flex-direction: row;
+}
+.flexbox-item{
+    width:250px;
+    border:5px solid blue;
+    background-color: pink;
+    margin: 30px;   
+}
+
+.flexbox-item1{
+    min-height: 100px;
+    flex-shrink:0;
+}   
+
+
+.flexbox-item2{
+    min-height: 200px;
+    flex-grow:1 ;
+    align-self: center;
+}   
+
+
+.flexbox-item3{
+    min-height: 300px;
+}   
